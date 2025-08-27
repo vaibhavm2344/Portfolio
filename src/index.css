@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
+
+
+:root {
+  /* Light Mode Colors */
+  --bg-color: #F9FAFB;
+  --card-bg: #FFFFFF;
+  --primary-color: #7C3AED; /* Purple */
+  --accent-color: #06B6D4;  /* Cyan */
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+
+  --gradient-hover: linear-gradient(90deg, #7C3AED, #06B6D4);
+
+  /* Font */
+  --font-family: 'Poppins', sans-serif;
+}
+
+[data-theme="dark"] {
+  /* Dark Mode Colors */
+  --bg-color: #0F172A;
+  --card-bg: #1E293B;
+  --primary-color: #7C3AED; /* Purple */
+  --accent-color: #06B6D4;  /* Cyan */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+
+  --gradient-hover: linear-gradient(90deg, #7C3AED, #06B6D4);
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.9s ease, color 0.9s ease;
+}
+
+/* .card {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+}
+
+.button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: var(--gradient-hover);
+} */
+
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+.active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
