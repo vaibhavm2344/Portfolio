@@ -17,7 +17,7 @@ const App = () => {
       </div>
 
       <div className="max-sm:hidden mx-5">
-
+      
       <Navbar/>
       <div >
         <Home/>

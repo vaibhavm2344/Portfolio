@@ -2,7 +2,7 @@
 export const projects = [
     {
         title : 'Master Anything',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'MasterAnything is a MERN web app that generates personalized learning plans using an LLM-powered backend with JWT-based authentication.',
         description : 'MasterAnything is a full-stack MERN web application where users can generate personalized learning plans by simply entering a topic and number of days. Built with JWT authentication, the platform assigns and retrieves user-specific courses using an LLM-powered backend.',
         features : [ 
             'Secure login & signup using JWT.',
@@ -14,22 +14,22 @@ export const projects = [
         ],
         techStack : ['React','Tailwind','Node.js','Express.js','MongoDB','GeminiAPI'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/masterAnything',
         github : 'https://github.com/vaibhavm2344/masterAnything',
     },
     {
         title : 'Imager',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'Imager is a web app that generates AI images from text prompts using a powerful image-generation API.',
         description : 'Imager is a web-based application that allows users to generate stunning AI images by simply typing a prompt. Built with modern frontend tools and backed by a powerful image-generation API.',
         features:[],
-        techStack : ['React','Tailwind','Node.js','Express.js','MongoDB','GeminiAPI'],
+        techStack : ['React','Tailwind','Node.js','Express.js','MongoDB'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/imager',
         github : 'https://github.com/vaibhavm2344/imager',
     },
     {
         title : 'Notes App',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'QuickNotes is a React-based app for creating and managing personal notes with secure login.',
         description : 'QuickNotes is a simple and intuitive React-based Notes Application that helps users capture ideas, manage tasks, and stay organized. With built-in login and registration features, users can securely access their personal notes from any device.',
         features:[
             'Add notes with title and description',
@@ -37,14 +37,14 @@ export const projects = [
             'Material UI icons (delete, add)',
             'Responsive and minimal UI'
         ],
-        techStack : ['React','Tailwind','Node.js','Express.js','MongoDB','GeminiAPI'],
+        techStack : ['React','CSS','Node.js','Express.js','Postgresql',],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/notes-app',
         github : 'https://github.com/vaibhavm2344/notes-app',
     },
     {
         title : 'To-Do List',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'A To-Do List app built with Node.js, Express, EJS, and PostgreSQL, enabling users to add, edit, delete, and track tasks efficiently.',
         description : 'A simple and elegant To-Do List web application built with Node.js, Express, EJS, and PostgreSQL. This project allows users to manage their tasks efficiently with features like adding, editing, deleting, and checking off completed tasks.',
         features:[
             'Add new tasks',
@@ -54,14 +54,14 @@ export const projects = [
             'Persistent data storage using PostgreSQL',
             'Clean and responsive UI with EJS templating'
         ],
-        techStack : ['React','Node.js','Express.js','Postgresql'],
+        techStack : ['React','CSS','Node.js','Express.js','Postgresql'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/To-Do-List',
         github : 'https://github.com/vaibhavm2344/To-Do-List',
     },
     {
         title : 'Bouncing Ball Game',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'A computer vision game where players control a paddle with finger tracking using OpenCV, MediaPipe, and Python.',
         description : 'A fun computer vision game where you control a paddle using your index finger tracked via webcam! Made with OpenCV, MediaPipe, and Python.',
         features:[
             'Hand tracking with MediaPipe',
@@ -72,14 +72,14 @@ export const projects = [
             'Increasing ball speed per bounce',
             'Sound effects for hit, miss, and game over'
         ],
-        techStack : ['Python','OpenCV','Mdediapipe'],
+        techStack : ['Python','OpenCV','Mediapipe'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/bouncing-ball-game',
         github : 'https://github.com/vaibhavm2344/bouncing-ball-game',
     },
     {
         title : 'Volume by gesture',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'A real-time hand gesture system to control volume using Python, OpenCV, MediaPipe, and Pycaw.',
         description : 'Control your system volume with hand gestures using Python, OpenCV, MediaPipe, and Pycaw. This project detects your hand in real-time and adjusts the system volume based on the distance between your thumb and index finger.',
         features:[
             'Real-time hand tracking using MediaPipe',
@@ -87,14 +87,14 @@ export const projects = [
             'Smooth volume control mapped to hand movement',
             'FPS display on screen',
         ],
-        techStack : ['Python','OpenCV','MediaPipe','Pycaw '],
+        techStack : ['Python','OpenCV','MediaPipe','Pycaw'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/volume-by-gesture',
         github : 'https://github.com/vaibhavm2344/volume-by-gesture',
     },
     {
         title : 'Eye Wheel',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'An eye-tracking system that enables hands-free wheelchair control using gaze direction and blinking.',
         description : 'A real-time eye-tracking system to control wheelchair movement using gaze direction and blinking for hands-free navigation.',
         features:[
             'Real-time eye tracking using webcam',
@@ -105,12 +105,12 @@ export const projects = [
         techStack : ['Python','OpenCV','pyFirmata','GazeTracking Library'],
         hardware:['Arduino Uno','Motor Driver (e.g., L298N)','2 DC motors'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/eye-controlled-wheelchair',
         github : 'https://github.com/vaibhavm2344/eye-controlled-wheelchair',
     },
     {
         title : 'Banking System (OOPs)',
-        shortDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+        shortDescription: 'A C++ banking system built with OOP principles, featuring Savings and Current accounts with deposits, withdrawals, overdrafts, and interest calculation.',
         description : 'This project simulates a simple banking system using core Object-Oriented Programming (OOP) principles in C++. It allows users to create and manage Savings and Current accounts with real-world functionalities like deposits, withdrawals, overdrafts, and interest calculation.',
         features:[
             'Create Savings and Current accounts',
@@ -122,11 +122,22 @@ export const projects = [
         ],
         techStack : ['C++'],
         date : '',
-        demo : '',
+        demo : 'https://github.com/vaibhavm2344/Banking-System-OOP',
         github : 'https://github.com/vaibhavm2344/Banking-System-OOP',
     },
 ]
 
-export const tech = ['React.js','Next.js','Tailwind CSS','JavaScript','Node.js','Express.js','REST API','MongoDB',
-    'Mongoose', 'Git & GitHub', 'Docker', 'Postman', 'Figma'
-]
+export const tech = {
+    All: [
+      "React.js", "Next.js", "Tailwind CSS", "JavaScript", "HTML", "CSS",
+      "Node.js", "Express.js", "REST APIs",
+      "MongoDB", "MySQL",
+      "JavaScript", "Python", "C++",
+      "Git & GitHub", "Postman", "Docker", "Figma"
+    ],
+    Frontend: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    Backend: ["Node.js", "Express.js", "REST APIs"],
+    Database: ["MongoDB", "MySQL"],
+    Languages: ["JavaScript", "Python", "C++"],
+    Tools: ["Git & GitHub", "Postman", "Docker", "Figma"],
+}

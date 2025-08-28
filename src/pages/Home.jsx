@@ -9,7 +9,7 @@ const Home = () => {
         <p className='text-lg mt-4 text-neutral-500'>MERN Developer & Problem Solver | Crafting Modern Web Experiences</p>
         <div className='mt-5 flex justify-start gap-6'>
             <a className='border px-6 py-2 rounded-full' href='#projects'>Projects</a>
-            <button className='border px-6 py-2 rounded-full'>Resume</button>
+            <a className='border px-6 py-2 rounded-full' href='src\assets\Resume_New.pdf' download={'Resume'}>Resume</a>
         </div>
        <ExternalLinks/>
       </div>
