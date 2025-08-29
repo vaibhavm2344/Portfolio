@@ -38,9 +38,9 @@ const Navbar = () => {
       <Header/>
       {
         (currentTheme !== 'light')?
-        <button onClick={toggleTheme}><img src="\moon.svg" className="p-3 border border-[var(--subheading-color)] rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-300" /></button>
+        <button onClick={toggleTheme}><img src="/moon.svg" className="p-3 border border-[var(--subheading-color)] rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-300" /></button>
         :
-        <button onClick={toggleTheme}><img src="\sun.svg" className="p-3 border border-[var(--subheading-color)] rounded-full flex items-center justify-center cursor-pointer text-white hover:bg-white/30"/></button>
+        <button onClick={toggleTheme}><img src="/sun.svg" className="p-3 border border-[var(--subheading-color)] rounded-full flex items-center justify-center cursor-pointer text-white hover:bg-white/30"/></button>
       }
     </div>
   );
