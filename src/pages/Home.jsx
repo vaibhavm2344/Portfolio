@@ -14,7 +14,7 @@ const Home = () => {
        <ExternalLinks/>
       </div>
       <div className='flex flex-1 items-center justify-center'>
-        <img src="/photo2.jpg" alt="" width={350} className='rounded-full h-[350px] border-2 border-zinc-300'/>
+        <img src={`${import.meta.env.BASE_URL}photo2.jpg`} alt="" width={350} className='rounded-full h-[350px] border-2 border-zinc-300'/>
       </div>
     </section>
   )
