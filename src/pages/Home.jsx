@@ -9,7 +9,7 @@ const Home = () => {
         <p className='text-lg mt-4 text-[var(--subheading-color)]'>MERN Developer & Problem Solver | Crafting Modern Web Experiences</p>
         <div className='mt-5 flex justify-start gap-6'>
             <a className='border border-[var(--subheading-color)] px-6 py-2 rounded-full hover:bg-[#7c3aed] hover:text-white transition-all duration-300 font-semibold' href='#projects'>Projects</a>
-            <a className='border border-[var(--subheading-color)] px-6 py-2 rounded-full bg-[#7c3aed] text-white hover:bg-white hover:text-black transition-all duration-300 font-semibold' href='src\assets\Resume_New.pdf' download={'Resume'}>Resume</a>
+            <a className='border border-[var(--subheading-color)] px-6 py-2 rounded-full bg-[#7c3aed] text-white hover:bg-white hover:text-black transition-all duration-300 font-semibold'  href={`${import.meta.env.BASE_URL}Resume_New.pdf`} download={'Resume'}>Resume</a>
         </div>
        <ExternalLinks/>
       </div>
