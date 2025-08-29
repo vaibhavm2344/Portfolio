@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="relative ml-30">
 
-    <div className="mt-10 aboslute left-0 border-l-2 border-dashed h-[70vh] pt-8">
+    <div className="mt-10 aboslute left-0 border-l-2 border-dashed h-[400px] pt-8">
         <span className="absolute left-[-10px] text-4xl top-11">&#9679;</span>
       <div className="border-l-2 flex flex-col gap-15 absolute left-0">
         <div className="px-10">
