@@ -19,7 +19,7 @@
 }
 .outfit {
   font-family: "Outfit", sans-serif;
-  font-size: large;
+  /* font-size: large; */
 }
 
 [data-theme="dark"] {
