@@ -131,13 +131,13 @@ export const tech = {
     All: [
       "React.js", "Next.js", "Tailwind CSS", "JavaScript", "HTML", "CSS",
       "Node.js", "Express.js", "REST APIs",
-      "MongoDB", "MySQL",
-      "JavaScript", "Python", "C++",
-      "Git & GitHub", "Postman", "Docker", "Figma"
+      "MongoDB", "MySQL", "PostreSQL",
+      "JavaScript", "Python", "C++","C",
+      "Git & GitHub", "Postman", "Docker", "Figma",
     ],
     Frontend: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
     Backend: ["Node.js", "Express.js", "REST APIs"],
     Database: ["MongoDB", "MySQL"],
-    Languages: ["JavaScript", "Python", "C++"],
+    Languages: ["JavaScript", "Python", "C++","C"],
     Tools: ["Git & GitHub", "Postman", "Docker", "Figma"],
 }

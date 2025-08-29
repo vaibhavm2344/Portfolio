@@ -9,19 +9,19 @@ const Education = () => {
       <div className="border-l-2 flex flex-col gap-15 absolute left-0">
         <div className="px-10">
           <p>Vishwakarma Institute of Technology, Pune</p>
-          <p className="text-black/60">2022-2026</p>
+          <p className="text-[var(--text-secondary)]">2022-2026</p>
           <p>(B.Tech) in Information Technology</p>
         </div>
         <span className="absolute left-[-12px] text-4xl top-36">&#9679;</span>
         <div className="px-10">
           <p>M.J.College, Jalgoan</p>
-          <p className="text-black/60">2020-2022</p>
+          <p className="text-[var(--text-secondary)]">2020-2022</p>
           <p>HSC(XII)</p>
         </div>
         <span className="absolute left-[-12px] text-4xl top-69">&#9679;</span>
         <div className="px-10">
           <p>Podar International School, Jalgaon</p>
-          <p className="text-black/60">2019-2020</p>
+          <p className="text-[var(--text-secondary)]">2019-2020</p>
           <p>SSC(X)</p>
         </div>
       </div>

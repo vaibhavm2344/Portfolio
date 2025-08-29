@@ -43,12 +43,12 @@ const Header = () => {
 
 
   return (
-    <div className="flex justify-around gap-4 border border-neutral-500/50 px-4 py-2 rounded-full items-center max-sm:w-[100px] md:w-[620px]">
+    <div className="flex justify-around gap-4 border border-[var(--subheading-color)] px-4 py-2 rounded-full items-center max-sm:w-[100px] md:w-[620px] backdrop-filter backdrop-blur-lg">
       <a
         href="#"
         className={`px-4 py-1 ${
           state === "home"
-            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-white/30 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300'
+            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-blue-100 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300 text-black'
             : ""
         }`}
         onClick={() => blockScroll && setState("home")}
@@ -59,7 +59,7 @@ const Header = () => {
         href="#projects"
         className={`px-4 py-1 ${
           state === "projects"
-            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-white/30 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300'
+            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-blue-100 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300 text-black'
             : ""
         }`}
         onClick={() => blockScroll && setState("projects")}
@@ -70,7 +70,7 @@ const Header = () => {
         href="#about"
         className={`px-4 py-1 ${
           state === "about"
-            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-white/30 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300'
+            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-blue-100 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300 text-black'
             : ""
         }`}
         onClick={() => blockScroll && setState("about")}
@@ -81,7 +81,7 @@ const Header = () => {
         href="#skills"
         className={`px-4 py-1 ${
           state === "skills"
-            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-white/30 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300'
+            ? 'border border-neutral-300 rounded-full backdrop-blur-lg bg-blue-100 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300 text-black'
             : ""
         }`}
         onClick={() => blockScroll && setState("skills")}
@@ -92,7 +92,7 @@ const Header = () => {
         href="#contact"
         className={`px-4 py-1 ${
           state === "contact"
-            ? ' border border-neutral-300 rounded-full  backdrop-blur-lg bg-white/30 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300'
+            ? ' border border-neutral-300 rounded-full  backdrop-blur-lg bg-blue-100 shadow-lg shadow-white/10 font-medium translate-y-6 transition-all duration-300 text-black'
             : ""
         }`}
         onClick={() => blockScroll && setState("contact")}
