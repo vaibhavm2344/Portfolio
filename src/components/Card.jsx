@@ -56,12 +56,11 @@ const Card = () => {
         <div className="flex-col flex gap-2 text-center mt-0">
           {selectedProject.demo && (
             <a
-              // href={selectedProject.demo}
+              href={selectedProject.demo}
               target="_blank"
               className="px-2 py-1 bg-blue-600 text-white rounded-lg cursor-pointer"
-              onClick={()=>alert('comming soon...')}
             >
-              Live Demo
+              Demo
             </a>
           )}
           {selectedProject.github && (
