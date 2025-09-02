@@ -14,7 +14,7 @@ export const projects = [
         ],
         techStack : ['React','Tailwind','Node.js','Express.js','MongoDB','GeminiAPI'],
         date : '',
-        demo : 'https://github.com/vaibhavm2344/masterAnything',
+        demo : 'https://drive.google.com/file/d/1JOXGm2pO2ry8SuLYBDu_AsywJ8kKJVew/view?usp=sharing',
         github : 'https://github.com/vaibhavm2344/masterAnything',
     },
     {
@@ -24,7 +24,7 @@ export const projects = [
         features:[],
         techStack : ['React','Tailwind','Node.js','Express.js','MongoDB'],
         date : '',
-        demo : 'https://github.com/vaibhavm2344/imager',
+        demo : '',
         github : 'https://github.com/vaibhavm2344/imager',
     },
     {
@@ -39,7 +39,7 @@ export const projects = [
         ],
         techStack : ['React','CSS','Node.js','Express.js','Postgresql',],
         date : '',
-        demo : 'https://github.com/vaibhavm2344/notes-app',
+        demo : 'https://drive.google.com/file/d/1GPeTqFyNr8y54PnbFEK-HAail8E411Ly/view?usp=sharing',
         github : 'https://github.com/vaibhavm2344/notes-app',
     },
     {
@@ -56,7 +56,7 @@ export const projects = [
         ],
         techStack : ['React','CSS','Node.js','Express.js','Postgresql'],
         date : '',
-        demo : 'https://github.com/vaibhavm2344/To-Do-List',
+        demo : 'https://drive.google.com/file/d/16N2nLt1638iBHUiVr9mr5s_J_VHVyeMe/view?usp=sharing',
         github : 'https://github.com/vaibhavm2344/To-Do-List',
     },
     {
