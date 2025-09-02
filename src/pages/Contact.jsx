@@ -6,7 +6,6 @@ const Contact = () => {
   const formRef = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(import.meta.env.YOUR_SERVICE_ID)
 
     emailjs
       .sendForm(
