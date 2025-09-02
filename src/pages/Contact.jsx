@@ -1,12 +1,13 @@
-import React, { useRef } from 'react'
+import React, { useRef,useState } from 'react'
 import ExternalLinks from '../components/ExternalLinks'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+   const [isSending, setIsSending] = useState(false);
   const formRef = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setIsSending(true);
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID, 
@@ -18,9 +19,11 @@ const Contact = () => {
         (result) => {
           alert('✅ Message sent successfully!');
           formRef.current.reset();
+          setIsSending(false);
         },
         (error) => {
           alert('❌ Failed to send message, try again later.');
+          setIsSending(false);
         }
       );
   };
@@ -34,7 +37,7 @@ const Contact = () => {
           <input type="text" placeholder='Name' name="name" required className='border border-[var(--subheading-color)] p-4 rounded-full w-full'/>
           <input type="email" placeholder='Email' name="email" required className='border border-[var(--subheading-color)] p-4 rounded-full w-full'/>
           <textarea type="text" placeholder='Message' name="message" required className='border border-[var(--subheading-color)] p-4 rounded-lg w-full'/>
-          <button type="submit" className='border border-[var(--subheading-color)] w-fit px-4 py-2 rounded-full text-[var(0f172a)] cursor-pointer hover:scale-105 transition-all duration-300'>Let's Connect</button>
+          <button disabled={isSending} type="submit" className='border border-[var(--subheading-color)] w-fit px-4 py-2 rounded-full text-[var(0f172a)] cursor-pointer hover:scale-105 transition-all duration-300'>Let's Connect</button>
         </form>
         <div className='flex justify-center'>
           <ExternalLinks />
